@@ -1,0 +1,24 @@
+
+
+.img {
+	border-radius: 30px;
+	/*width: 400px;*/
+	/*height: 400px;*/
+}
+.tittle {
+	margin-left: 259px;
+	text-align: left;
+}
+
+body {
+	font-family: arial;
+	background-color: #15586e !important;
+	color: white !important;
+	font-size: 20px;
+}
+
+.category {
+	margin-top: 150px;
+	margin-left: 300px;
+	margin-bottom: 90px;
+}

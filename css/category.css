@@ -1,0 +1,30 @@
+.img {
+	margin-top: 25px;
+	border-radius: 20px;
+	/*width: 250px;*/
+	/*height: 280px;*/
+}
+.tittle {
+	/*margin-left: 80px;*/
+	text-align: left;
+}
+.link {
+	text-decoration: none;
+	color: white !important;
+}
+
+body {
+	font-family: arial;
+	background-color: #15586e;
+	color: white;
+	font-size: 20px;
+}
+
+
+#pagination {
+	/*text-align: center;*/
+	/*margin-left: 35%;*/
+	/*font-size: 20px;*/
+}
+
+

@@ -1,0 +1,54 @@
+ body {
+ 	background-image: url("../images/bg3.jpg");
+
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	
+ }
+#nav1 {
+	font-size: 20px;
+	padding : 20px;
+	/*padding-right: 60px;*/
+}
+#nav1 li {
+	padding-left: 30px;
+}
+ #myTable {
+ 	font-size: 22px;
+ 	/*color: white;*/
+ 	
+ }
+ #myTable thead {
+/*color: white;*/
+ }
+
+
+ #d1 {
+ 	font-size: 20px;
+ 	/*color: white;*/
+ }
+ /*.tittle {
+ 	display: block;
+ }*/
+ #flex {
+ 	display: flex;
+ }
+ .imagebrowser {
+ 	position: relative;
+ 	right: 70%;
+ }
+
+ img {
+ 	display: bloak;
+ 	max-width : 100%;
+ }
+ .preview {
+ 	overflow : hidden;
+ 	width : 160px;
+ 	height : 160px;
+ 	margin : 10px;
+ 	border : 1px solid red;
+ }
+ /*.modal-lg {
+ 	max-width :1000px !important;
+ }*/

@@ -1,0 +1,140 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.headsearch {
+    margin-left: 16cm;
+
+}
+
+#inputsearch {
+    font-size: 20px;
+    height: 38px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid black;
+    color: black;
+}
+
+#btns {
+    font-size: 15px;
+    height: 38px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    width: 73px;
+}
+
+#nav1 {
+    font-size: 18px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
+}
+
+.login {
+    padding-left: 29cm;
+    font-size: 17px;
+    color: white;
+    padding-top: 15px;
+}
+
+.leftside {
+    text-align: center;
+    font-size: 25px;
+    overflow: scroll;
+    height: 800px;
+    scroll-behavior: smooth;
+}
+
+.centerside {
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.rightside {
+    text-align: center;
+
+
+    overflow: scroll;
+    height: 800px;
+    scroll-behavior: smooth;
+}
+
+.rimg {
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.footabout {
+    font-size: 20px;
+    margin: 20px 100px;
+    padding: 50px;
+}
+
+.information {
+    margin-top: 20px;
+}
+
+.information li {
+    list-style: none;
+    list-style-position: inline;
+    padding: 10px;
+    color: black;
+    text-align: left;
+
+}
+
+footer {
+    margin-top: 514px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #222;
+    color: white;
+    padding: 7px;
+}
+
+.dropdown {
+    /*font-size: 30px;*/
+    /*display: block;*/
+    /*position: relative;*/
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    /*background-color: #ddd;*/
+}
+
+.dropdown-menu {
+    font-size: 20px;
+    overflow: visible;
+    width: 6cm;
+    margin-top: 20px;
+    background-color: #333;
+
+}
+
+.dropdown-item {
+    display: block;
+    color: #9d9d9d;
+    text-decoration: :none;
+    padding: 30px;
+}
+
+.dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+}
