@@ -13,9 +13,15 @@ include CONTROLLER_PATH."contentController.php";
 <html>
   <head>
     <title>Content Page</title>
+<<<<<<< HEAD
     <?php include __DIR__.'/link/contentLink.php';?>
+=======
+    <?php include __DIR__.'/link/contentLink.php';?> 
+    
+>>>>>>> main
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   </head>
+  
   <body class="bg-info">
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav1">
   <div class="container-fluid">
