@@ -14,9 +14,6 @@ include CONTROLLER_PATH."contentController.php";
   <head>
     <title>Content Page</title>
     <?php include __DIR__.'/link/contentLink.php';?>
-
-    
-    
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   </head>
   <body class="bg-info">
