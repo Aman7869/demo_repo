@@ -13,12 +13,7 @@ include CONTROLLER_PATH."contentController.php";
 <html>
   <head>
     <title>Content Page</title>
-<<<<<<< HEAD
     <?php include __DIR__.'/link/contentLink.php';?>
-=======
-    <?php include __DIR__.'/link/contentLink.php';?> 
-    
->>>>>>> main
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   </head>
   
@@ -50,7 +45,7 @@ include CONTROLLER_PATH."contentController.php";
 
 
     <div class="modal" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document"  style="max-width: 1450px!important;">
+      <div class="modal-dialog" role="document"  style="max-width: 739px!important;">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="editModalLabel">Edit Article</h5>
@@ -96,7 +91,7 @@ include CONTROLLER_PATH."contentController.php";
                 <input type="file"  name="image" id="upload_image" class="form-control crop_image">
                 <input type="hidden" name="img" id="img" value="">
               </div>
-              <button type="submit" class="btn btn-primary">Update</button>
+              <button type="submit" class="btn btn-primary" style="position: absolute; left:71%; top:89%">Update</button>
             </div>
           </form>
         </div>
@@ -126,8 +121,7 @@ include CONTROLLER_PATH."contentController.php";
         </form>
       </div>
     </div>
-    <div class=" my-4">
-      
+    <div class=" my-2">      
       <table class="table" id="myTable">
         <thead>
           <tr>
@@ -153,7 +147,10 @@ include CONTROLLER_PATH."contentController.php";
     <script type="text/javascript" src="<?php echo BASE_URL;?>js/ckeditor/ckeditor.js" ></script>
     <script>
     $(document).ready( function () {
-   $('#myTable').DataTable();
+   $('#myTable').DataTable({
+    processing: true,
+   });
+   
     } );
     var edits = document.getElementsByClassName('edit');
     Array.from(edits).forEach((element)=>{

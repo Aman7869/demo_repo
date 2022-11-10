@@ -24,7 +24,7 @@
                 <li><a href="<?php echo BASE_URL; ?>views/profile.php" <?php $_SESSION['name']; ?>> Profile</a></li>
                 <li><a href="<?php echo BASE_URL; ?>views/contentPage.php"><i class="fa fa-fw fa-envelope"></i> Content_Page</a></li>
                 <li><a href="<?php echo BASE_URL; ?>views/category.php" <?php $_SESSION['name']; ?>><i class="fa fa-fw fa-envelope"></i>Article</a></li>
-                <li style="margin-left: 60px;"><a href="<?php echo BASE_URL; ?>views/logout.php">Logout</a></li>
+                <li style="margin-left: 606px;"><a href="<?php echo BASE_URL; ?>views/logout.php">Logout</a></li>
                 <?php }?>
 <!-- 
                 <li><a href="#">Page 1</a></li>
